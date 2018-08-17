@@ -15,4 +15,18 @@ module.exports = {
     rules: {
         strict: 'error',
     },
+    globals: {
+        // 微信小程序 全局函数
+        wx: {},
+        App() {
+        },
+        getApp() {
+        },
+        getCurrentPages() {
+        },
+        Page() {
+        },
+        Component() {
+        },
+    }
 };

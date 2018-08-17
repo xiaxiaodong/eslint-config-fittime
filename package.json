@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fittime",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Fittime 前端规范",
   "main": "index.js",
   "scripts": {

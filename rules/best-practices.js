@@ -1,5 +1,8 @@
 module.exports = {
     rules: {
+
+        'no-undef': 1,
+
         // enforces getter/setter pairs in objects
         'accessor-pairs': 'off',
 
