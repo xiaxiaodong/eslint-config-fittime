@@ -89,7 +89,7 @@ module.exports = {
 
         // require function expressions to have a name
         // https://eslint.org/docs/rules/func-names
-        'func-names': 'warn',
+        'func-names': 0,
 
         // enforces use of function declarations or expressions
         // https://eslint.org/docs/rules/func-style
@@ -192,21 +192,11 @@ module.exports = {
 
         // specify the maximum length of a line in your program
         // https://eslint.org/docs/rules/max-len
-        'max-len': ['error', 100, 2, {
-            ignoreUrls: true,
-            ignoreComments: false,
-            ignoreRegExpLiterals: true,
-            ignoreStrings: true,
-            ignoreTemplateLiterals: true,
-        }],
+        'max-len': 0,
 
         // specify the max number of lines in a file
         // https://eslint.org/docs/rules/max-lines
-        'max-lines': ['off', {
-            max: 300,
-            skipBlankLines: true,
-            skipComments: true
-        }],
+        'max-lines': 0,
 
         // specify the maximum depth callbacks can be nested
         'max-nested-callbacks': 'off',
